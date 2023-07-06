@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 450px;
+  margin: 10px 0;
+}
+
+.container p {
+  width: 50%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container div {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container div button {
+  padding: 8px 25px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #aa6817;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background: #8f5e1e;
+}
+
+.container button:hover {
+  background: #99703f;
+  color: #fff;
+}
+
+.container button:disabled {
+  background: #ac9980;
+  border: 1px solid #7e7365;
+  cursor: no-drop;
+  color: #ccc;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}

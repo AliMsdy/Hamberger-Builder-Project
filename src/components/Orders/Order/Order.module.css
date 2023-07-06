@@ -1,0 +1,26 @@
+.Order {
+  width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+.Order div {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.Order div ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.Order div ul li {
+  border: solid 1px #aaa;
+  margin: 4px 7px;
+  padding: 4px;
+  border-radius: 5px;
+}

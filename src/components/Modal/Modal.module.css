@@ -1,0 +1,24 @@
+.container {
+  width: 75%;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px 10px 10px 20px;
+  transition: all 0.5s linear;
+  z-index: 10;
+}
+
+.container > * {
+  margin: 12px 0;
+}
+
+.closed {
+  top: -100%;
+}
+
+.container ul {
+  margin-left: 35px;
+}

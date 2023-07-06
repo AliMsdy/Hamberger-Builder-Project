@@ -1,0 +1,10 @@
+.container {
+  background-color: #703b09;
+}
+@media only screen and (max-width: 499px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+  }
+}
